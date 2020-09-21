@@ -1,0 +1,12 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/cards-list/cards-list.css);
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/examples/examples.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/link-image/link-image.css);
+@import url(../blocks/link-pseudo/link-pseudo.css);
+@import url(../blocks/link-text/link-text.css);
+@import url(../blocks/page/page.css);
