@@ -1,0 +1,12 @@
+@import url(./__card/reviews__card.css);
+@import url(./__card-author-name/reviews__card-author-name.css);
+@import url(./__card-author-photo/reviews__card-author-photo.css);
+@import url(./__card-quote/reviews__card-quote.css);
+@import url(./__card-text/reviews__card-text.css);
+@import url(./__pagination/reviews__pagination.css);
+@import url(./__pagination-item/reviews__pagination-item.css);
+@import url(./__pagination-item/_active/reviews__pagination-item_active.css);
+@import url(./__subtitle/reviews__subtitle.css);
+@import url(./__title/reviews__title.css);
+
+.reviews {}

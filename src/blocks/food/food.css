@@ -1,0 +1,9 @@
+@import url(./__card/food__card.css);
+@import url(./__card-caption/food__card-caption.css);
+@import url(./__card-image/food__card-image.css);
+@import url(./__card-title/food__card-title.css);
+@import url(./__cards-wrapper/food__cards-wrapper.css);
+@import url(./__subtitle/food__subtitle.css);
+@import url(./__title/food__title.css);
+
+.food {}

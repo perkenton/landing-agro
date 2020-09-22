@@ -1,0 +1,11 @@
+@import url(./__card/blog__card.css);
+@import url(./__card-date/blog__card-date.css);
+@import url(./__card-month/blog__card-month.css);
+@import url(./__card-number/blog__card-number.css);
+@import url(./__card-subtitle/blog__card-subtitle.css);
+@import url(./__card-title/blog__card-title.css);
+@import url(./__cards-list/blog__cards-list.css);
+@import url(./__subtitle/blog__subtitle.css);
+@import url(./__title/blog__title.css);
+
+.blog {}

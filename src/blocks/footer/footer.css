@@ -1,0 +1,11 @@
+@import url(./__contact/footer__contact.css);
+@import url(./__contacts/footer__contacts.css);
+@import url(./__contacts-title/footer__contacts-title.css);
+@import url(./__copyright-block/footer__copyright-block.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__map/footer__map.css);
+@import url(./__menu/footer__menu.css);
+@import url(./__menu-item/footer__menu-item.css);
+@import url(./__social-icon/footer__social-icon.css);
+
+.footer {}
