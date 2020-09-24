@@ -1,6 +1,17 @@
 @import url(./__image/slogan__image.css);
+@import url(./__title/_blue/slogan__title_blue.css);
+@import url(./__title/_green/slogan__title_green.css);
+@import url(./__title/_orange/slogan__title_orange.css);
+@import url(./__title/_pink/slogan__title_pink.css);
+@import url(./__title/_yellow/slogan__title_yellow.css);
 @import url(./__title/slogan__title.css);
+@import url(./__image-border/slogan__image-border.css);
 
 .slogan {
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 44px;
+  padding-bottom: 160px;
 }

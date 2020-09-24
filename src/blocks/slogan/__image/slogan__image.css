@@ -1,1 +1,6 @@
-.slogan__image {}
+.slogan__image {
+  max-width: 720px;
+  height: 493px;
+  position: relative;
+  z-index: 1;
+}

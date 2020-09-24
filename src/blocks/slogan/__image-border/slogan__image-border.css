@@ -1,0 +1,15 @@
+.slogan__image-border {
+  width: 328px;
+  height: 493px;
+  background-image: url('../../../images/slogan-image.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 110%;;
+  background-position: 85% 100%;
+  box-sizing: border-box;
+  border: 30px solid;
+  border-image: url('../../../images/slogan-backgound.jpg') 30 stretch;
+  position: relative;
+  margin-left: -292px;
+  margin-top: -36px;
+  z-index: 2;
+}
