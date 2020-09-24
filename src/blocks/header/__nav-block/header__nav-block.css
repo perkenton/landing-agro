@@ -8,10 +8,10 @@
   align-items: center;
   justify-content: center;
 }
-
+/*TODO maybe width: 95vw?*/
 .header__nav-block::after {
   content: '';
-  width: calc(100vw - 24px);
+  width: 98vw;
   height: 1px;
   background-color: rgba(128, 128, 128, .5);
   position: absolute;
