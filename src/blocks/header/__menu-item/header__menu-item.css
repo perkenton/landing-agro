@@ -1,1 +1,10 @@
-.header__menu-item {}
+.header__menu-item {
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  margin-right: 28px;
+  padding-bottom: 42px;
+}

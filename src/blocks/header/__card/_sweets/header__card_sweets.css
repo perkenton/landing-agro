@@ -1,0 +1,9 @@
+.header__card_sweets {
+  /*max-width: 380px;*/
+  /*min-height: 704px;*/
+  background-image: url('../../../../images/header-image-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  grid-area: header__card_sweets;
+}

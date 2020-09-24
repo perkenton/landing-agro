@@ -1,8 +1,55 @@
 @import url(./__card/header__card.css);
+@import url(./__card/_food/header__card_food.css);
+@import url(./__card/_fruits/header__card_fruits.css);
+@import url(./__card/_meat/header__card_meat.css);
+@import url(./__card/_sweets/header__card_sweets.css);
+@import url(./__card/_text/header__card_text.css);
 @import url(./__card-title/header__card-title.css);
+@import url(./__card-title/_bold/header__card-title_bold.css);
+@import url(./__card-title/_thin/header__card-title_thin.css);
+@import url(./__cards-list/header__cards-list.css);
 @import url(./__logo/header__logo.css);
+@import url(./__logo-image/header__logo-image.css);
+@import url(./__logo-text/header__logo-text.css);
 @import url(./__menu/header__menu.css);
 @import url(./__menu-item/header__menu-item.css);
+@import url(./__menu-item/_active/header__menu-item_active.css);
+@import url(./__nav-block/header__nav-block.css);
 @import url(./__title/header__title.css);
+@import url(./__title-among-cards/header__title-among-cards.css);
+@import url(./__title-among-cards/_bold/header__title-among-cards_bold.css);
+@import url(./__title-among-cards/_thin/header__title-among-cards_thin.css);
+@import url(./__wrapper/header__wrapper.css);
 
-.header {}
+.header {
+  height: 1630px;
+  background-image: url('../../images/header-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  z-index: 0;
+}
+
+.header::before {
+  content: '';
+  width: 100%;
+  height: 310px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 394px;
+  background: linear-gradient(to top left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 50%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}

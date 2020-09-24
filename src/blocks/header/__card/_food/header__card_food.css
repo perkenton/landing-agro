@@ -1,0 +1,9 @@
+.header__card_food {
+  /*max-width: 511px;*/
+  /*min-height: 340px;*/
+  background-image: url('../../../../images/header-image-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  grid-area: header__card_food;
+}

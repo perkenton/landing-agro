@@ -1,1 +1,5 @@
-.button_white {}
+.button_white {
+  color: #1b1b1b;
+  background-color: #fff;
+  margin-left: auto;
+}

@@ -1,0 +1,11 @@
+.header__cards-list {
+  max-width: 1382px;
+  width: calc(100% - 64px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 311px 370px;
+  grid-template-areas:
+    "header__card_sweets header__card_food header__card-image_meat"
+    "header__card_sweets header__card_text header__card_fruits";
+}

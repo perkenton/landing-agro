@@ -1,1 +1,11 @@
-.header__title {}
+.header__title {
+  width: 570px;
+  font-family: Storytella, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 200px;
+  color: #fff;
+  margin-top: 164px;
+  margin-bottom: 100px;
+}

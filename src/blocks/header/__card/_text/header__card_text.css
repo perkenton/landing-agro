@@ -1,0 +1,5 @@
+.header__card_text {
+  display: flex;
+  grid-area: header__card_text;
+  margin-right: 20%;
+}

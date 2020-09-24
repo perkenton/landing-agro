@@ -1,1 +1,10 @@
-.header__logo {}
+.header__logo {
+  width: 100px;
+  height: 130px;
+  background-color: #fcdb5a;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-right: 68px;
+  z-index: 2;
+}

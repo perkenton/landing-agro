@@ -1,0 +1,9 @@
+.header__card-image_meat {
+  /*max-width: 511px;*/
+  /*min-height: 340px;*/
+  background-image: url('../../../../images/header-image-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  grid-area: header__card-image_meat;
+}

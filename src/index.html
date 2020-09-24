@@ -1,41 +1,82 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex">
-  <title>Резюме</title>
+  <title>Agro</title>
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
-
+  <link rel="icon" href="<%=require('./images/favicon.ico').default%>">
   <script defer src="<%=htmlWebpackPlugin.files.js %>"></script>
 </head>
 
 <body>
 
+  <!-- TODO hover, focus, active -->
+
   <div class="page">
 
     <header class="header">
-      <img src="" alt="" class="header__logo">
-      <ul class="header__menu">
-        <li class="header__menu-item"></li>
-        <li class="header__menu-item"></li>
-        <li class="header__menu-item"></li>
-        <li class="header__menu-item"></li>
-        <li class="header__menu-item"></li>
-        <li class="header__menu-item"></li>
-      </ul>
-      <a href="" class="button button_white"></a>
+      <div class="header__wrapper">
+        <nav class="header__nav-block">
+          <div class="header__logo">
+            <img src="<%=require('./images/logo.png').default%>" alt="Logo" class="header__logo-image">
+            <p class="header__logo-text">Agro</p>
+          </div>
+          <ul class="header__menu">
+            <li class="header__menu-item header__menu-item_active">Home</li>
+            <li class="header__menu-item">About</li>
+            <li class="header__menu-item">Pages</li>
+            <li class="header__menu-item">Gallery</li>
+            <li class="header__menu-item">Blog</li>
+            <li class="header__menu-item">Contacts</li>
+          </ul>
+          <a href="" class="button button_white">Get in Touch</a>
+        </nav>
 
-      <div class="header__card">
-        <h2 class="header__card-title">
-          <span class="header__card-title_bold"></span>
-          <span class="header__card-title_thin"></span>
-        </h2>
+        <h1 class="header__title">Organic Food</h1>
       </div>
-      <h1 class="header__title">
-          <span class="header__title_bold"></span>
-        <span class="header__title_thin"></span>
-      </h1>
+
+      <div class="header__cards-list">
+
+        <div class="header__card header__card_sweets">
+          <h2 class="header__card-title">
+            <p class="header__card-title_bold">Awesome</p>
+            <p class="header__card-title_thin">Sweets</p>
+          </h2>
+        </div>
+
+        <div class="header__card header__card_food">
+          <h2 class="header__card-title">
+            <p class="header__card-title_bold">Organic</p>
+            <p class="header__card-title_thin">Food</p>
+          </h2>
+        </div>
+
+        <div class="header__card header__card-image_meat">
+          <h2 class="header__card-title">
+            <p class="header__card-title_bold">Tasty</p>
+            <p class="header__card-title_thin">Meat</p>
+          </h2>
+        </div>
+
+        <div class="header__card_text">
+          <h2 class="header__title-among-cards">
+            <p class="header__title-among-cards_bold">Agro</p>
+            <p class="header__title-among-cards_thin">awesome</p>
+            <p class="header__title-among-cards_thin">Products</p>
+          </h2>
+        </div>
+
+        <div class="header__card header__card_fruits">
+          <h2 class="header__card-title">
+            <p class="header__card-title_bold">Juicy</p>
+            <p class="header__card-title_thin">Fruits</p>
+          </h2>
+        </div>
+
+      </div>
+
     </header>
 
     <section class="slogan">
