@@ -1,5 +1,5 @@
 .cakes__title {
-  width: 470px;
+  max-width: 470px;
   font-family: Storytella, Arial, Helvetica, sans-serif;
   font-style:  normal;
   font-weight: 400;
@@ -8,5 +8,4 @@
   color: #ccaf8a;
   margin-top: 84px;
   margin-bottom: 0;
-  /*padding-top: 84px;*/
 }

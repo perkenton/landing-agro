@@ -1,1 +1,10 @@
-.progress__title {}
+.progress__title {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #333;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,1 +1,7 @@
-.progress__list-item {}
+.progress__list-item {
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-self: center;
+}

@@ -1,8 +1,16 @@
 @import url(./__list/progress__list.css);
 @import url(./__list-caption/progress__list-caption.css);
+@import url(./__list-caption-bold/progress__list-caption-bold.css);
+@import url(./__list-caption-thin/progress__list-caption-thin.css);
 @import url(./__list-icon/progress__list-icon.css);
 @import url(./__list-item/progress__list-item.css);
 @import url(./__subtitle/progress__subtitle.css);
 @import url(./__title/progress__title.css);
+@import url(./__title-bold/progress__title-bold.css);
+@import url(./__title-thin/progress__title-thin.css);
 
-.progress {}
+.progress {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
