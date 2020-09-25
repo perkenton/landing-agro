@@ -1,1 +1,16 @@
-.reviews__pagination-item {}
+.reviews__pagination-item {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #5b5b5b;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 6px;
+  margin-left: 6px;
+  transition: .2s linear;
+}
+
+.reviews__pagination-item:hover {
+  border: 2px solid #fcdb5a;
+}

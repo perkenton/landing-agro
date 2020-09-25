@@ -1,12 +1,24 @@
 @import url(./__card/reviews__card.css);
 @import url(./__card-author-name/reviews__card-author-name.css);
+@import url(./__card-author-name-bold/reviews__card-author-name-bold.css);
+@import url(__card-author-name-regular/reviews__card-author-name-regular.css);
 @import url(./__card-author-photo/reviews__card-author-photo.css);
-@import url(./__card-quote/reviews__card-quote.css);
+@import url(./__card-info-block/reviews__card-info-block.css);
 @import url(./__card-text/reviews__card-text.css);
 @import url(./__pagination/reviews__pagination.css);
 @import url(./__pagination-item/reviews__pagination-item.css);
 @import url(./__pagination-item/_active/reviews__pagination-item_active.css);
 @import url(./__subtitle/reviews__subtitle.css);
 @import url(./__title/reviews__title.css);
+@import url(./__title-bold/reviews__title-bold.css);
+@import url(./__title-thin/reviews__title-thin.css);
 
-.reviews {}
+.reviews {
+  background-image: url('../../images/reviews-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 180px;
+}

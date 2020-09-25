@@ -1,1 +1,8 @@
-.reviews__card {}
+.reviews__card {
+  max-width: 1170px;
+  margin-top: 64px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}

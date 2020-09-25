@@ -1,3 +1,5 @@
 .reviews__pagination-item_active {
-
+  background-color: #fcdb5a;
+  border: 2px solid #fcdb5a;
+  cursor: default;
 }

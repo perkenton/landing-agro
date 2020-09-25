@@ -33,6 +33,14 @@
 @font-face {
   font-family: 'Raleway';
   font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/Raleway-Regular.woff2") format("woff2"),
+       url("./fonts/Raleway-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style:  normal;
   font-weight: 700;
   src: url("./fonts/Raleway-Bold.woff2") format("woff2"),
        url("./fonts/Raleway-Bold.woff") format("woff");
@@ -59,5 +67,5 @@
   font-style:  normal;
   font-weight: 700;
   src: url("./fonts/Lato-Bold.woff2") format("woff2"),
-  url("./fonts/Lato-Bold.woff") format("woff");
+       url("./fonts/Lato-Bold.woff") format("woff");
 }
