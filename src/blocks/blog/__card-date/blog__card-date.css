@@ -1,1 +1,10 @@
-.blog__card-date {}
+.blog__card-date {
+  width: 61px;
+  height: 65px;
+  background-color: #fcdb5a;
+  text-align: center;
+  padding-top: 14px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}

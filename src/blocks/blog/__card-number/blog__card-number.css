@@ -1,1 +1,10 @@
-.blog__card-number {}
+.blog__card-number {
+  font-family: Gilroy, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 800;
+  font-size: 25px;
+  color: #333;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}

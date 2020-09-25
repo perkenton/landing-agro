@@ -1,1 +1,12 @@
-.blog__card-subtitle {}
+.blog__card-subtitle {
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ddc051;
+  margin-top: auto;
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
+}

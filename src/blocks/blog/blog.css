@@ -1,4 +1,7 @@
 @import url(./__card/blog__card.css);
+@import url(./__card/_image-first/blog__card_image-first.css);
+@import url(./__card/_image-second/blog__card_image-second.css);
+@import url(./__card/_image-third/blog__card_image-third.css);
 @import url(./__card-date/blog__card-date.css);
 @import url(./__card-month/blog__card-month.css);
 @import url(./__card-number/blog__card-number.css);
@@ -7,5 +10,10 @@
 @import url(./__cards-list/blog__cards-list.css);
 @import url(./__subtitle/blog__subtitle.css);
 @import url(./__title/blog__title.css);
+@import url(./__title-bold/blog__title-bold.css);
+@import url(./__title-thin/blog__title-thin.css);
 
-.blog {}
+.blog {
+  text-align: center;
+  padding-top: 140px;
+}

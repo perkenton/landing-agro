@@ -1,1 +1,11 @@
-.blog__card-title {}
+.blog__card-title {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}

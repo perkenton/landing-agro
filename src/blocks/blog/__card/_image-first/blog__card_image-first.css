@@ -1,0 +1,6 @@
+.blog__card_image-first {
+  background-image: url('../../../../images/blog-image-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}

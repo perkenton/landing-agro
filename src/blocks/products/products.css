@@ -5,7 +5,7 @@
 .products {
   max-width: 1600px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /*repeat(auto-fill, minmax(400px, 1fr));*/
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 0;
   margin-left: auto;

@@ -1,1 +1,12 @@
-.blog__subtitle {}
+.blog__subtitle {
+  max-width: 570px;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #b3b3b3;
+  margin-top: 28px;
+  margin-left: auto;
+  margin-right: auto;
+}

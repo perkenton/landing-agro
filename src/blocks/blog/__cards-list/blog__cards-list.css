@@ -1,1 +1,10 @@
-.blog__cards-list {}
+.blog__cards-list {
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
