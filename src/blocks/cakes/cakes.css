@@ -1,5 +1,12 @@
-@import url(./__image/cakes__image.css);
 @import url(./__mark/cakes__mark.css);
 @import url(./__title/cakes__title.css);
+@import url(./__wrapper/cakes__wrapper.css);
 
-.cakes {}
+.cakes {
+  min-height: 684px;
+  background-image: url('../../images/cakes-background.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 80% 50%;
+  background-color: #f9f9f9;
+}

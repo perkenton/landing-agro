@@ -1,1 +1,6 @@
-.cakes__mark {}
+.cakes__mark {
+  height: 198px;
+  position: absolute;
+  top: 34px;
+  right: 156px;
+}
