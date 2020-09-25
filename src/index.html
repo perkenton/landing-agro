@@ -13,6 +13,7 @@
 <body>
 
   <!-- TODO hover, focus, active -->
+  <!-- TODO alts -->
 
   <div class="page">
 
@@ -87,31 +88,88 @@
 
     <section class="services">
       <h2 class="services__title">
-        <span class="services__title_bold"></span>
-        <span class="services__title_thin"></span>
+        <span class="services__title-bold">Agro</span>
+        <span class="services__title-thin">Progress</span>
       </h2>
-      <p class="services__subtitle"></p>
+      <p class="services__subtitle">Latin words, combined with a&nbsp;handful of&nbsp;model sentence structures, to&nbsp;generate Lorem Ipsum which looks reasonable.</p>
       <div class="services__list">
         <figure class="services__list-item">
-          <img src="" alt="" class="services__list-icon">
-          <figcaption class="services__list-caption"></figcaption>
+          <img src="<%=require('./images/services-steak.png').default%>" alt="Steak icon" class="services__list-icon">
+          <figcaption class="services__list-caption">Steak House</figcaption>
+        </figure>
+
+        <figure class="services__list-item">
+          <img src="<%=require('./images/services-cereals.png').default%>" alt="Cereals icon" class="services__list-icon">
+          <figcaption class="services__list-caption">Tasty Cereals</figcaption>
+        </figure>
+
+        <figure class="services__list-item">
+          <img src="<%=require('./images/services-pizza.png').default%>" alt="Pizza icon" class="services__list-icon">
+          <figcaption class="services__list-caption">Italian Pizza</figcaption>
+        </figure>
+
+        <figure class="services__list-item">
+          <img src="<%=require('./images/services-burgers.png').default%>" alt="Burgers icon" class="services__list-icon">
+          <figcaption class="services__list-caption">Vegeterian Burgers</figcaption>
+        </figure>
+
+        <figure class="services__list-item">
+          <img src="<%=require('./images/services-cupcake.png').default%>" alt="Cupcake icon" class="services__list-icon">
+          <figcaption class="services__list-caption">Awesome Cupcake</figcaption>
+        </figure>
+
+        <figure class="services__list-item">
+          <img src="<%=require('./images/services-vegetables.png').default%>" alt="Vegetables icon" class="services__list-icon">
+          <figcaption class="services__list-caption">Vegetables</figcaption>
         </figure>
       </div>
     </section>
 
     <section class="food">
-      <h2 class="food__title">
-        <span class="food__title_bold"></span>
-        <span class="food__title_thin"></span>
-      </h2>
-      <p class="food__subtitle"></p>
-      <a href="" class="button button_yellow"></a>
+      <div class="food__text-wrapper">
+        <h2 class="food__title">
+          <span class="food__title-bold">Agro Perfect</span>
+          <span class="food__title-thin">Food for you</span>
+        </h2>
+        <p class="food__subtitle">Latin words, combined with a&nbsp;handful of&nbsp;model sentence structures, to&nbsp;generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is&nbsp;therefore always free from repetition injected humour, or&nbsp;non-characteristic words etc. Contrary to&nbsp;popular belief, Lorem Ipsum is&nbsp;not simply random text. It&nbsp;has roots in&nbsp;a&nbsp;piece of&nbsp;classical Latin literature from 45&nbsp;BC, making it&nbsp;over 2000 years old.</p>
+        <a href="" class="button button_yellow">Discover</a>
+      </div>
 
       <div class="food__cards-wrapper">
         <div class="food__card">
-          <img src="" alt="" class="food__card-image">
-          <h3 class="food__card-title"></h3>
-          <p class="food__card-caption"></p>
+          <img src="<%=require('./images/food-image-1.jpg').default%>" alt="" class="food__card-image">
+        </div>
+
+        <div class="food__card">
+          <h3 class="food__card-title">Health Benefits of&nbsp;a&nbsp;Raw&nbsp;Food</h3>
+          <p class="food__card-caption">Dogfish shark, bango hog sucker, baikal oilfish, eeltail catfish regal whiptail catfish; squarehead catfish electric ray.</p>
+        </div>
+
+        <div class="food__card">
+          <img src="<%=require('./images/food-image-2.jpg').default%>" alt="" class="food__card-image">
+        </div>
+
+        <div class="food__card">
+          <h3 class="food__card-title">Tips for Ripening your&nbsp;Fruit</h3>
+          <p class="food__card-caption">The generated Lorem Ipsum is&nbsp;therefore always free from repetition injected humour, or&nbsp;non-characteristic words etc. Susp endisse ultricies nisi vel quam suscipit</p>
+        </div>
+
+        <div class="food__card">
+          <h3 class="food__card-title">Superfoods you should&nbsp;be&nbsp;eating</h3>
+          <p class="food__card-caption">The generated Lorem Ipsum is&nbsp;therefore always free from repetition injected humour, or&nbsp;non-characteristic words etc. Susp endisse ultricies nisi vel quam suscipit</p>
+        </div>
+
+        <div class="food__card">
+          <img src="<%=require('./images/food-image-3.jpg').default%>" alt="" class="food__card-image">
+        </div>
+
+        <div class="food__card">
+          <h3 class="food__card-title">Grunt torrent catfish squaretail Norwegian Atlantic salmon</h3>
+          <p class="food__card-caption">Northern clingfish searobin betta blue shark. Jackfish leopard danio suckermouth armored catfish, eelpout velvetfish goldspotted killifish&mdash;driftfish ronquil emperor golden loach</p>
+        </div>
+
+        <div class="food__card">
+          <img src="<%=require('./images/food-image-4.jpg').default%>" alt="" class="food__card-image">
         </div>
       </div>
     </section>

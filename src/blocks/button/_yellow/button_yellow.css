@@ -1,1 +1,5 @@
-.button_yellow {}
+.button_yellow {
+  color: #4f4a37;
+  background-color: #fcdb5a;
+  padding: 27px 48px;
+}

@@ -4,7 +4,10 @@
 @import url(./__list-item/services__list-item.css);
 @import url(./__subtitle/services__subtitle.css);
 @import url(./__title/services__title.css);
+@import url(./__title-bold/services__title-bold.css);
+@import url(./__title-thin/services__title-thin.css);
 
 .services {
-
+  text-align: center;
+  padding-bottom: 136px;
 }

@@ -1,1 +1,18 @@
-.food__card-caption {}
+.food__card-caption {
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 42px;
+  padding-right: 34px;
+  padding-bottom: 28px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
+  word-wrap: break-word;
+}

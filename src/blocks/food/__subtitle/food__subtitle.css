@@ -1,1 +1,11 @@
-.food__subtitle {}
+.food__subtitle {
+  max-width: 530px;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #c5c5c5;
+  margin-top: 38px;
+  margin-bottom: 48px;
+}

@@ -1,1 +1,9 @@
-.services__list-caption {}
+.services__list-caption {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+  margin-top: 36px;
+  margin-bottom: 0;
+}

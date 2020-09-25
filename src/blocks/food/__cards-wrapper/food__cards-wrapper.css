@@ -1,1 +1,10 @@
-.food__cards-wrapper {}
+.food__cards-wrapper {
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(292px, 1fr)); /*repeat(4, 292px);*/
+  grid-template-rows: repeat(2, 221px);
+  grid-gap: 0;
+  margin-top: 108px;
+  margin-left: auto;
+  margin-right: auto;
+}

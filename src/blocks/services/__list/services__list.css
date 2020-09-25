@@ -1,1 +1,10 @@
-.services__list {}
+.services__list {
+  max-width: 1170px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 96px;
+  margin-left: auto;
+  margin-right: auto;
+}

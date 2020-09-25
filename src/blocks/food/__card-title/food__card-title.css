@@ -1,1 +1,14 @@
-.food__card-title {}
+.food__card-title {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 48px;
+  padding-bottom: 20px;
+  padding-left: 42px;
+  padding-right: 34px;
+}
