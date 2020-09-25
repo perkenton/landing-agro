@@ -1,1 +1,30 @@
-.products__card {}
+.products__card {
+  max-height: 370px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: .2s linear;
+  cursor: pointer;
+}
+
+.products__card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.products__card:hover::before {
+  background-color: rgba(0, 0, 0, .6);
+  transition: .2s linear;
+}
+
+
+.products__card:hover .products__card-title {
+  opacity: 1;
+  transition: .2s linear;
+}

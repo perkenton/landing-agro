@@ -1,1 +1,12 @@
-.products__card-title {}
+.products__card-title {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style:  normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  z-index: 1;
+  position: relative;
+  top: -60%;
+  transition: .2s linear;
+  opacity: 0;
+}

@@ -1,5 +1,13 @@
 @import url(./__card/products__card.css);
+@import url(./__card-image/products__card-image.css);
 @import url(./__card-title/products__card-title.css);
-@import url(./__cards-list/products__cards-list.css);
 
-.products {}
+.products {
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /*repeat(auto-fill, minmax(400px, 1fr));*/
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
