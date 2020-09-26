@@ -1,1 +1,7 @@
-.footer__map {}
+.footer__map {
+  background-image: url(../../../images/footer-map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  grid-area: footer__map;
+}

@@ -1,1 +1,8 @@
-.footer__menu-item {}
+.footer__menu-item {
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+}

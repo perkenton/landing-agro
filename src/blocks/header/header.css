@@ -8,13 +8,13 @@
 @import url(./__card-title/_bold/header__card-title_bold.css);
 @import url(./__card-title/_thin/header__card-title_thin.css);
 @import url(./__cards-list/header__cards-list.css);
-@import url(./__logo/header__logo.css);
-@import url(./__logo-image/header__logo-image.css);
-@import url(./__logo-text/header__logo-text.css);
+@import url(../logo/logo.css);
+@import url(../logo/__image/logo__image.css);
+@import url(../logo/__text/logo__text.css);
 @import url(./__menu/header__menu.css);
 @import url(./__menu-item/header__menu-item.css);
 @import url(./__menu-link/header__menu-link.css);
-@import url(./__menu-item/_active/header__menu-item_active.css);
+@import url(./__menu-link/_active/header__menu-link_active.css);
 @import url(./__nav-block/header__nav-block.css);
 @import url(./__title/header__title.css);
 @import url(./__title-among-cards/header__title-among-cards.css);

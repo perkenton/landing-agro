@@ -1,0 +1,14 @@
+.footer__menu-link {
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: #aaa;
+  transition: .2s linear;
+}
+
+.footer__menu-link:hover {
+  color: #fff;
+}
+
+.footer__menu-link:focus {
+  outline: 1px dotted #fcdb5a;
+}

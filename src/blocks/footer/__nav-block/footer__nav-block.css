@@ -1,0 +1,6 @@
+.footer__nav-block {
+  display: flex;
+  padding-top: 78px;
+  padding-bottom: 74px;
+  grid-area: footer__nav-block;
+}

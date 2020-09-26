@@ -1,0 +1,7 @@
+.footer__contacts-block {
+  max-width: 670px;
+  display: flex;
+  padding-bottom: 60px;
+  align-items: flex-end;
+  grid-area: footer__contacts-block;
+}

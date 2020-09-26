@@ -1,11 +1,46 @@
 @import url(./__contact/footer__contact.css);
 @import url(./__contacts/footer__contacts.css);
+@import url(./__contacts-block/footer__contacts-block.css);
 @import url(./__contacts-title/footer__contacts-title.css);
+@import url(./__copyright/footer__copyright.css);
 @import url(./__copyright-block/footer__copyright-block.css);
+@import url(./__copyright-link/footer__copyright-link.css);
 @import url(./__logo/footer__logo.css);
 @import url(./__map/footer__map.css);
 @import url(./__menu/footer__menu.css);
 @import url(./__menu-item/footer__menu-item.css);
+@import url(./__menu-link/footer__menu-link.css);
+@import url(./__menu-link/_active/footer__menu-link_active.css);
+@import url(./__nav-block/footer__nav-block.css);
 @import url(./__social-icon/footer__social-icon.css);
+@import url(./__social-icon-link/footer__social-icon-link.css);
+@import url(./__social-icons/footer__social-icons.css);
 
-.footer {}
+.footer {
+  max-width: 1600px;
+  background-color: #333;
+  position: relative;
+  display: grid;
+  grid-template-columns: 770px 1fr;
+  /*grid-template-rows: 1fr 1fr 1fr;*/
+  gap: 1px 1px;
+  grid-template-areas:
+    "footer__nav-block footer__map"
+    "footer__contacts-block footer__map"
+    "footer__copyright-block footer__map";
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+/*.footer::before {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  background-color: #333;*/
+/*  z-index: -1;*/
+/*  width: 100vw;*/
+/*}*/

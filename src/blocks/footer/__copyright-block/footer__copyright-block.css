@@ -1,1 +1,9 @@
-.footer__copyright-block {}
+.footer__copyright-block {
+  max-width: 670px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  border-top: 1px solid #464646;
+  grid-area: footer__copyright-block;
+}

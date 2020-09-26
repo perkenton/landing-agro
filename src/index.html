@@ -12,20 +12,21 @@
 
 <body>
 
-  <!-- TODO hover, focus, active -->
+  <!-- TODO hover, focus, active (желтым при наведении)-->
   <!-- TODO alts -->
+  <!-- TODO viewport -->
 
   <div class="page">
 
     <header class="header">
       <div class="header__wrapper">
         <nav class="header__nav-block">
-          <div class="header__logo">
-            <img src="<%=require('./images/logo.png').default%>" alt="Logo" class="header__logo-image">
-            <p class="header__logo-text">Agro</p>
+          <div class="logo">
+            <img src="<%=require('./images/logo.png').default%>" alt="Logo" class="logo__image">
+            <p class="logo__text">Agro</p>
           </div>
           <ul class="header__menu">
-            <li class="header__menu-item header__menu-item_active"><a href="#" class="header__menu-link">Home</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link header__menu-link_active">Home</a></li>
             <li class="header__menu-item"><a href="#" class="header__menu-link">About</a></li>
             <li class="header__menu-item"><a href="#" class="header__menu-link">Pages</a></li>
             <li class="header__menu-item"><a href="#" class="header__menu-link">Gallery</a></li>
@@ -337,19 +338,52 @@
     </section>
 
     <footer class="footer">
-      <img src="" alt="" class="footer__logo">
-      <ul class="footer__menu">
-        <li class="footer__menu-item"></li>
-      </ul>
 
-      <div class="footer__contacts">
-        <p class="footer__contacts-title"></p>
-        <p class="footer__contact"></p>
+      <!-- TODO wrapper?-->
+
+      <nav class="footer__nav-block">
+        <div class="logo">
+          <img src="<%=require('./images/logo.png').default%>" alt="Logo" class="logo__image">
+          <p class="logo__text">Agro</p>
+        </div>
+        <ul class="footer__menu">
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_active">Home</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">About</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Pages</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Gallery</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Blog</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Contacts</a></li>
+        </ul>
+
+        <ul class="footer__menu">
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Partners</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Customer Service</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Vegetables</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Fruits</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Organic Food</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Privacy policy</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__contacts-block">
+        <div class="footer__contacts">
+          <p class="footer__contacts-title">Email</p>
+          <p class="footer__contact">support@agrocompany.com</p>
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__contacts-title">Phone</p>
+          <p class="footer__contact">+1&nbsp;(234)&nbsp;56789, +1&nbsp;987&nbsp;654&nbsp;3210</p>
+        </div>
+        <div class="footer__social-icons">
+          <a href="#" class="footer__social-icon-link"><img src="<%=require('./images/footer-twitter.png').default%>" alt="Twitter logo" class="footer__social-icon"></a>
+          <a href="#" class="footer__social-icon-link"><img src="<%=require('./images/footer-fb.png').default%>" alt="Facebook logo" class="footer__social-icon"></a>
+          <a href="#" class="footer__social-icon-link"><img src="<%=require('./images/footer-in.png').default%>" alt="Linkedin logo" class="footer__social-icon"></a>
+        </div>
       </div>
-      <img src="" alt="" class="footer__social-icon">
 
       <div class="footer__copyright-block">
-
+        <p class="footer__copyright">© 2017, AgroTheme by <a href="#" class="footer__copyright-link">Artureanec</a> | <a href="#" class="footer__copyright-link">Privacy Policy</a> | <a href="#" class="footer__copyright-link">Sitemap</a></p>
+        <p class="footer__copyright">All Rights Reserved.</p>
       </div>
 
       <div class="footer__map"></div>
