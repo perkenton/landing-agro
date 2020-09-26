@@ -1,3 +1,5 @@
 .reviews__pagination {
-  margin-left: auto;
+  position: absolute;
+  bottom: 32px;
+  right: 92px;
 }

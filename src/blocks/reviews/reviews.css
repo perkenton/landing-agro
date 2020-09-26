@@ -9,6 +9,8 @@
 @import url(./__pagination-item/reviews__pagination-item.css);
 @import url(./__pagination-item/_active/reviews__pagination-item_active.css);
 @import url(./__subtitle/reviews__subtitle.css);
+@import url(./__swiper-container/reviews__swiper-container.css);
+@import url(./__swiper-wrapper/reviews__swiper-wrapper.css);
 @import url(./__title/reviews__title.css);
 @import url(./__title-bold/reviews__title-bold.css);
 @import url(./__title-thin/reviews__title-thin.css);

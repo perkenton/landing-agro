@@ -1,7 +1,7 @@
 .reviews__card-info-block {
   max-width: 1000px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 44px;
   margin-left: auto;

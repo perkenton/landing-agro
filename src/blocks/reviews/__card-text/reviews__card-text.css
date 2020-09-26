@@ -10,17 +10,16 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  quotes: '\201c';
 }
 
 .reviews__card-text::before {
-  content: open-quote;
+  content: '\201c';
   position: absolute;
   font-family: "Times New Roman", Times, serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 100px;
   color: #fcdb5a;
   top: 0;
-  left: -90px;
+  left: -88px;
 }
