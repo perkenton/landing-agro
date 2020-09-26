@@ -15,32 +15,9 @@
 @import url(./__social-icon/footer__social-icon.css);
 @import url(./__social-icon-link/footer__social-icon-link.css);
 @import url(./__social-icons/footer__social-icons.css);
+@import url(./__wrapper/footer__wrapper.css);
 
 .footer {
-  max-width: 1600px;
   background-color: #333;
   position: relative;
-  display: grid;
-  grid-template-columns: 770px 1fr;
-  /*grid-template-rows: 1fr 1fr 1fr;*/
-  gap: 1px 1px;
-  grid-template-areas:
-    "footer__nav-block footer__map"
-    "footer__contacts-block footer__map"
-    "footer__copyright-block footer__map";
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 1;
 }
-
-/*.footer::before {*/
-/*  content: '';*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  background-color: #333;*/
-/*  z-index: -1;*/
-/*  width: 100vw;*/
-/*}*/

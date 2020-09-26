@@ -1,3 +1,16 @@
 .footer__social-icon-link {
   text-decoration: none;
+  transition: .2s linear;
+}
+
+.footer__social-icon-link:hover {
+  filter: drop-shadow(0 1px 3px rgba(252, 219, 90, .9));
+}
+
+.footer__social-icon-link:active {
+  filter: drop-shadow(0 1px 1px rgba(252, 219, 90, .9));
+}
+
+.footer__social-icon-link:focus {
+  outline: 1px dotted rgba(252, 219, 90, 1);
 }

@@ -1,0 +1,28 @@
+.footer__wrapper {
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 770px 1fr;
+  gap: 1px 1px;
+  grid-template-areas:
+    "footer__nav-block footer__map"
+    "footer__contacts-block footer__map"
+    "footer__copyright-block footer__map";
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 215px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+  .footer__wrapper {
+    max-width: 1400px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .footer__wrapper {
+    max-width: 1200px;
+    padding-left: 0;
+  }
+}
