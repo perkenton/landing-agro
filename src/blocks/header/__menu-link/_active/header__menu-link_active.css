@@ -1,3 +1,4 @@
 .header__menu-link_active {
+  padding-bottom: 40px;
   border-bottom: 2px solid #fcdb5a;
 }

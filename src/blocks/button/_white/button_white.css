@@ -3,4 +3,18 @@
   background-color: #fff;
   margin-left: auto;
   padding: 22px 36px;
+  transition: .2s linear;
+}
+
+.button_white:hover {
+  box-shadow: 0px 1px 15px rgba(255, 255, 255, .8);
+}
+
+.button_white:active {
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, .9);
+}
+
+.button_white:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, .9);
 }

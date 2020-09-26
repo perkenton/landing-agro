@@ -1,5 +1,13 @@
 .header__menu-link {
-  padding-bottom: 40px;
+
   text-decoration: none;
   color: #fff;
+}
+
+.header__menu-link:hover {
+  color: #fcdb5a;
+}
+
+.header__menu-link:focus {
+  outline: 1px dotted #fcdb5a;
 }
