@@ -12,8 +12,6 @@
 
 <body>
 
-  <!-- TODO viewport -->
-
   <div class="page">
 
     <header class="header">
@@ -45,37 +43,37 @@
 
         <div class="header__card header__card_sweets">
           <h2 class="header__card-title">
-            <p class="header__card-title_bold">Awesome</p>
-            <p class="header__card-title_thin">Sweets</p>
+            <span class="header__card-title-bold">Awesome</span>
+            <span class="header__card-title-thin">Sweets</span>
           </h2>
         </div>
 
         <div class="header__card header__card_food">
           <h2 class="header__card-title">
-            <p class="header__card-title_bold">Organic</p>
-            <p class="header__card-title_thin">Food</p>
+            <span class="header__card-title-bold">Organic</span>
+            <span class="header__card-title-thin">Food</span>
           </h2>
         </div>
 
         <div class="header__card header__card-image_meat">
           <h2 class="header__card-title">
-            <p class="header__card-title_bold">Tasty</p>
-            <p class="header__card-title_thin">Meat</p>
+            <span class="header__card-title-bold">Tasty</span>
+            <span class="header__card-title-thin">Meat</span>
           </h2>
         </div>
 
         <div class="header__card_text">
           <h2 class="header__title-among-cards">
-            <p class="header__title-among-cards_bold">Agro</p>
-            <p class="header__title-among-cards_thin">awesome</p>
-            <p class="header__title-among-cards_thin">Products</p>
+            <span class="header__title-among-cards-bold">Agro</span>
+            <span class="header__title-among-cards-thin">Awesome</span>
+            <span class="header__title-among-cards-thin">Products</span>
           </h2>
         </div>
 
         <div class="header__card header__card_fruits">
           <h2 class="header__card-title">
-            <p class="header__card-title_bold">Juicy</p>
-            <p class="header__card-title_thin">Fruits</p>
+            <span class="header__card-title-bold">Juicy</span>
+            <span class="header__card-title-thin">Fruits</span>
           </h2>
         </div>
 
@@ -229,45 +227,46 @@
     </section>
 
     <section class="products">
+      <h2 class="visually-hidden">Products</h2>
 
       <div class="products__card">
         <img src="<%=require('./images/products-image-1.jpg').default%>" alt="Jam with cookies" class="products__card-image">
-        <h2 class="products__card-title">Testy Jam</h2>
+        <h3 class="products__card-title">Testy Jam</h3>
       </div>
 
       <div class="products__card">
         <img src="<%=require('./images/products-image-2.jpg').default%>" alt="Cards on table" class="products__card-image">
-        <h2 class="products__card-title">Testy Card</h2>
+        <h3 class="products__card-title">Testy Card</h3>
       </div>
 
       <div class="products__card">
         <img src="<%=require('./images/products-image-3.jpg').default%>" alt="Chamomile and cherry" class="products__card-image">
-        <h2 class="products__card-title">Testy Chamomile</h2>
+        <h3 class="products__card-title">Testy Chamomile</h3>
       </div>
 
       <div class="products__card">
         <img src="<%=require('./images/products-image-4.jpg').default%>" alt="Chocolate cocktail" class="products__card-image">
-        <h2 class="products__card-title">Testy Glass</h2>
+        <h3 class="products__card-title">Testy Glass</h3>
       </div>
 
       <div class="products__card">
         <img src="<%=require('./images/products-image-5.jpg').default%>" alt="Nuts on a spoon" class="products__card-image">
-        <h2 class="products__card-title">Testy Nuts</h2>
+        <h3 class="products__card-title">Testy Nuts</h3>
       </div>
 
       <div class="products__card">
         <img src="<%=require('./images/products-image-6.jpg').default%>" alt="Glass of smoothie" class="products__card-image">
-        <h2 class="products__card-title">Testy Smoothie</h2>
+        <h3 class="products__card-title">Testy Smoothie</h3>
       </div>
 
       <div class="products__card">
         <img src="<%=require('./images/products-image-7.jpg').default%>" alt="Plum and jam" class="products__card-image">
-        <h2 class="products__card-title">Testy Plum Jam</h2>
+        <h3 class="products__card-title">Testy Plum Jam</h3>
       </div>
 
       <div class="products__card">
         <img src="<%=require('./images/products-image-8.jpg').default%>" alt="Sandwiches with cucumber and radish" class="products__card-image">
-        <h2 class="products__card-title">Testy Cucumber</h2>
+        <h3 class="products__card-title">Testy Cucumber</h3>
       </div>
 
     </section>
@@ -308,11 +307,11 @@
 
         </div>
 
-          <div class="reviews__pagination">
-            <span class="reviews__pagination-item reviews__pagination-item_active"></span>
-            <span class="reviews__pagination-item"></span>
-            <span class="reviews__pagination-item"></span>
-          </div>
+        <div class="reviews__pagination">
+          <span class="reviews__pagination-item reviews__pagination-item_active"></span>
+          <span class="reviews__pagination-item"></span>
+          <span class="reviews__pagination-item"></span>
+        </div>
 
       </div>
 
@@ -357,6 +356,7 @@
     </section>
 
     <section class="partners">
+      <h2 class="visually-hidden">Our partners</h2>
       <img src="<%=require('./images/partners-logo-1.jpg').default%>" alt="Organic emporium logo" class="partners__logo">
       <img src="<%=require('./images/partners-logo-2.jpg').default%>" alt="Farm fresh logo" class="partners__logo">
       <img src="<%=require('./images/partners-logo-3.jpg').default%>" alt="Organic food logo" class="partners__logo">
