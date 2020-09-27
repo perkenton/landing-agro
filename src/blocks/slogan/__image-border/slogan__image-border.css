@@ -13,3 +13,15 @@
   margin-top: -36px;
   z-index: 2;
 }
+
+@media (max-width: 1024px) {
+  .slogan__image-border {
+    margin-left: -390px;
+  }
+}
+
+@media (max-width: 524px) {
+  .slogan__image-border {
+    display: none;
+  }
+}

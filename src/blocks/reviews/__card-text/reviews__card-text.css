@@ -23,3 +23,19 @@
   top: 0;
   left: -88px;
 }
+
+@media (max-width: 1200px) {
+  .reviews__card-text {
+    width: calc(100% - 24px);
+  }
+  .reviews__card-text::before {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews__card-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

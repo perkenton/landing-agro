@@ -1,3 +1,15 @@
 .footer__contacts {
   margin-right: 74px;
 }
+
+@media (max-width: 1250px) {
+  .footer__contacts {
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__contacts {
+    margin-bottom: 16px;
+  }
+}

@@ -8,12 +8,12 @@
 @import url(./__card-title/_bold/header__card-title_bold.css);
 @import url(./__card-title/_thin/header__card-title_thin.css);
 @import url(./__cards-list/header__cards-list.css);
-@import url(../logo/logo.css);
-@import url(../logo/__image/logo__image.css);
-@import url(../logo/__text/logo__text.css);
 @import url(./__menu/header__menu.css);
 @import url(./__menu-item/header__menu-item.css);
 @import url(./__menu-link/header__menu-link.css);
+@import url(./__mobile-menu-button/header__mobile-menu-button.css);
+@import url(./__mobile-menu-checkbox/header__mobile-menu-checkbox.css);
+@import url(./__mobile-menu-icon/header__mobile-menu-icon.css);
 @import url(./__menu-link/_active/header__menu-link_active.css);
 @import url(./__nav-block/header__nav-block.css);
 @import url(./__title/header__title.css);
@@ -53,4 +53,31 @@
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .header {
+    height: 1500px;
+  }
+  .header::after {
+    height: 200px;
+  }
+}
+@media (max-width: 550px) {
+  .header {
+    padding-bottom: 64px;
+  }
+}
+@media (max-width: 520px) {
+  .header {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 450px) {
+  .header {
+    height: 1384px;
+  }
+  .header::after {
+    height: 100px;
+  }
 }

@@ -6,3 +6,9 @@
   overflow: hidden;
   position: relative;
 }
+
+@media (max-width: 1200px) {
+  .reviews__swiper-container {
+    width: calc(100% - 64px);
+  }
+}

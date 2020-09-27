@@ -5,3 +5,9 @@
   margin-right: auto;
   position: relative;
 }
+
+@media (max-width: 500px) {
+  .header__wrapper {
+    width: calc(100% - 32px);
+  }
+}

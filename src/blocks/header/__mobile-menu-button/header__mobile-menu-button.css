@@ -1,0 +1,26 @@
+.header__mobile-menu-button {
+  position: relative;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  transition: .4s linear;
+}
+
+@media (max-width: 920px) {
+  .header__mobile-menu-button {
+    display: flex;
+  }
+  .header__mobile-menu-checkbox:checked ~ .header__mobile-menu-button {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__mobile-menu-button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}

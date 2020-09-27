@@ -2,13 +2,20 @@
 
 .partners {
   max-width: 1170px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(1, 122px);
-  grid-gap: 30px;
   text-align: center;
   padding-top: 134px;
   padding-bottom: 134px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 425px) {
+  .partners {
+    max-width: 420px;
+    width: calc(100% - 24px);
+    flex-direction: column;
+  }
 }

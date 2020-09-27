@@ -19,10 +19,14 @@
     <header class="header">
       <div class="header__wrapper">
         <nav class="header__nav-block">
-          <div class="logo">
+          <div class="logo logo_header-mode">
             <img src="<%=require('./images/logo.png').default%>" alt="Agro logo" class="logo__image">
             <p class="logo__text">Agro</p>
           </div>
+
+          <input type="checkbox" id="checkbox" class="header__mobile-menu-checkbox">
+          <label for="checkbox" class="header__mobile-menu-button"><span class="header__mobile-menu-icon"></span></label>
+
           <ul class="header__menu">
             <li class="header__menu-item"><a href="#" class="header__menu-link header__menu-link_active">Home</a></li>
             <li class="header__menu-item"><a href="#" class="header__menu-link">About</a></li>
@@ -364,7 +368,7 @@
 
       <div class="footer__wrapper">
         <nav class="footer__nav-block">
-          <div class="logo">
+          <div class="logo logo_footer-mode">
             <img src="<%=require('./images/logo.png').default%>" alt="Logo" class="logo__image">
             <p class="logo__text">Agro</p>
           </div>

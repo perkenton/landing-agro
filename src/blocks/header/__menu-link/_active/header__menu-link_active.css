@@ -2,3 +2,9 @@
   padding-bottom: 40px;
   border-bottom: 2px solid #fcdb5a;
 }
+
+@media (max-width: 920px) {
+  .header__mobile-menu-checkbox:checked ~ .header__menu .header__menu-link_active {
+    padding-bottom: 2px;
+  }
+}

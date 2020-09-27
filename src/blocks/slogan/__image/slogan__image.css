@@ -1,6 +1,37 @@
 .slogan__image {
   max-width: 720px;
-  height: 493px;
   position: relative;
   z-index: 1;
 }
+
+@media (max-width: 1024px) {
+  .slogan__image {
+    max-width: 640px;
+  }
+}
+@media (max-width: 670px) {
+  .slogan__image {
+    max-width: 500px;
+  }
+}
+@media (max-width: 524px) {
+  .slogan__image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+  }
+}
+/*@media (max-width: 424px) {*/
+/*  .slogan__image {*/
+/*    max-width: 300px;*/
+/*  }*/
+/*}*/
+/*@media (max-width: 400px) {*/
+/*  .slogan__image {*/
+/*    max-width: 250px;*/
+/*  }*/
+/*}*/

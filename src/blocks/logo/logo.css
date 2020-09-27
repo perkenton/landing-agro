@@ -1,5 +1,7 @@
 @import url(./__image/logo__image.css);
 @import url(./__text/logo__text.css);
+@import url(./_header-mode/logo_header-mode.css);
+@import url(./_footer-mode/logo_footer-mode.css);
 
 .logo {
   width: 100px;
@@ -8,6 +10,6 @@
   position: relative;
   display: inline-block;
   text-align: center;
-  margin-right: 68px;
   z-index: 2;
 }
+

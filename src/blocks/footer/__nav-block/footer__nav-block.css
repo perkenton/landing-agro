@@ -4,3 +4,9 @@
   padding-bottom: 74px;
   grid-area: footer__nav-block;
 }
+
+@media (max-width: 990px) {
+  .footer__nav-block {
+    justify-content: space-evenly;
+  }
+}

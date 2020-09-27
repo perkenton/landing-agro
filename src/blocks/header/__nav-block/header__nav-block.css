@@ -5,16 +5,32 @@
   z-index: 1;
   text-align: center;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-/*TODO maybe width: 95vw?*/
 .header__nav-block::after {
   content: '';
-  width: 98vw;
+  width: 95vw;
   height: 1px;
   background-color: rgba(128, 128, 128, .5);
   position: absolute;
   bottom: 17px;
   z-index: 1;
+}
+
+@media (max-width: 920px) {
+  .header__nav-block {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__nav-block {
+    flex-direction: column;
+  }
+
+  .header__nav-block::after {
+    bottom: -8px;
+  }
 }

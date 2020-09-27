@@ -2,3 +2,18 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+
+@media (max-width: 580px) {
+  .footer__social-icon {
+    margin-bottom: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__social-icon {
+    display: inline-block;
+  }
+}

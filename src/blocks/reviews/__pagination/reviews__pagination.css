@@ -3,3 +3,17 @@
   bottom: 32px;
   right: 92px;
 }
+
+@media (max-width: 768px) {
+  .reviews__pagination {
+    right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews__pagination {
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

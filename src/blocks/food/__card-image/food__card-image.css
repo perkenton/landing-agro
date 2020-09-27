@@ -1,3 +1,9 @@
 .food__card-image {
   object-fit: cover;
 }
+
+@media (max-width: 1200px) {
+  .food__card-image {
+    width: 100%;
+  }
+}

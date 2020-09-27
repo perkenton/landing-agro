@@ -1,7 +1,27 @@
 .footer__contacts-block {
   max-width: 670px;
   display: flex;
+  flex-direction: row;
   padding-bottom: 60px;
   align-items: flex-end;
   grid-area: footer__contacts-block;
+}
+
+@media (max-width: 990px) {
+  .footer__contacts-block {
+    max-width: none;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer__contacts-block {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__contacts-block {
+    flex-direction: column;
+  }
 }

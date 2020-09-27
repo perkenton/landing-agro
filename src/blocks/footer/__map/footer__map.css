@@ -5,3 +5,10 @@
   background-position: top;
   grid-area: footer__map;
 }
+
+@media (max-width: 1200px) {
+  .footer__map {
+    min-height: 450px;
+    background-position: center;
+  }
+}

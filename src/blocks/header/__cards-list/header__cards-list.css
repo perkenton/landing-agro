@@ -9,3 +9,26 @@
     "header__card_sweets header__card_food header__card-image_meat"
     "header__card_sweets header__card_text header__card_fruits";
 }
+
+@media (max-width: 800px) {
+  .header__cards-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "header__card_sweets header__card_food"
+    "header__card_text header__card-image_meat"
+    "header__card_fruits header__card_fruits";
+  }
+}
+@media (max-width: 550px) {
+  .header__cards-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "header__card_sweets"
+    "header__card_food"
+    "header__card_text"
+    "header__card-image_meat"
+    "header__card_fruits";
+  }
+}

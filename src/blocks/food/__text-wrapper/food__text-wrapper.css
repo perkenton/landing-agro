@@ -6,3 +6,9 @@
   position: relative;
   z-index: 1;
 }
+
+@media (max-width: 1200px) {
+  .food__text-wrapper {
+    width: calc(100% - 64px);
+  }
+}

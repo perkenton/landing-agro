@@ -7,3 +7,15 @@
   border-top: 1px solid #464646;
   grid-area: footer__copyright-block;
 }
+
+@media (max-width: 1250px) {
+  .footer__copyright-block {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 990px) {
+  .footer__copyright-block {
+    justify-content: space-between;
+  }
+}

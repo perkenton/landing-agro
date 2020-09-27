@@ -5,3 +5,9 @@
   margin-right: auto;
   padding-top: 84px;
 }
+
+@media (max-width: 1170px) {
+  .cakes__wrapper {
+    width: calc(100% - 64px);
+  }
+}

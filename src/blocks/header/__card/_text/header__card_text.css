@@ -3,3 +3,9 @@
   grid-area: header__card_text;
   margin-right: 20%;
 }
+
+@media (max-width: 800px) {
+  .header__card_text {
+    margin-right: 0;
+  }
+}

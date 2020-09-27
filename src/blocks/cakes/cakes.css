@@ -10,3 +10,29 @@
   background-position: 80% 50%;
   background-color: #f9f9f9;
 }
+
+@media (max-width: 1000px) {
+  .cakes {
+    background-position: -200% 50%;
+  }
+}
+@media (max-width: 850px) {
+  .cakes {
+    background-position: -100% 50%;
+  }
+}
+@media (max-width: 750px) {
+  .cakes {
+    background-position: -75% 50%;
+  }
+}
+@media (max-width: 650px) {
+  .cakes {
+    background-position: -10% 50%;
+  }
+}
+@media (max-width: 480px) {
+  .cakes {
+    min-height: auto;
+  }
+}

@@ -1,5 +1,5 @@
 .slogan__title {
-  width: 520px;
+  max-width: 520px;
   font-family: Storytella, Arial, Helvetica, sans-serif;
   font-style:  normal;
   font-weight: 400;
@@ -11,3 +11,46 @@
   margin-top: 30px;
   z-index: 3;
 }
+
+@media (max-width: 1024px) {
+  .slogan__title {
+    font-size: 72px;
+    line-height: 72px;
+  }
+}
+@media (max-width: 524px) {
+  .slogan__title {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media (max-width: 442px) {
+  .slogan__title {
+    margin-top: 0;
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 342px) {
+  .slogan__title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+}
+/*@media (max-width: 500px) {*/
+/*  .slogan__title {*/
+/*    font-size: 64px;*/
+/*    line-height: 64px;*/
+/*    margin-left: -75%;*/
+/*  }*/
+/*}*/
+/*@media (max-width: 430px) {*/
+/*  .slogan__title {*/
+/*    font-size: 48px;*/
+/*    line-height: 48px;*/
+/*  }*/
+/*}*/

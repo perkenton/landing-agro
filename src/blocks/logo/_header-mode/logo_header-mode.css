@@ -1,0 +1,9 @@
+.logo_header-mode {
+  margin-right: 68px;
+}
+
+@media (max-width: 920px) {
+  .logo_header-mode {
+    margin-right: 0;
+  }
+}

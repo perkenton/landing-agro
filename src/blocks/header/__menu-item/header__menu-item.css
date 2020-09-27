@@ -8,3 +8,12 @@
   margin-right: 28px;
   padding-bottom: 42px;
 }
+
+@media (max-width: 920px) {
+  .header__mobile-menu-checkbox:checked ~ .header__menu .header__menu-item {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+  }
+}

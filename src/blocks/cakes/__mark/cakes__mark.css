@@ -4,3 +4,14 @@
   top: 34px;
   right: 156px;
 }
+
+@media (max-width: 800px) {
+  .cakes__mark {
+    right: 56px;
+  }
+}
+@media (max-width: 650px) {
+  .cakes__mark {
+    top: -75px;
+  }
+}

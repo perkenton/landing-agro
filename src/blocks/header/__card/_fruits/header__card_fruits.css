@@ -1,10 +1,14 @@
 .header__card_fruits {
-  /*max-width: 618px;*/
-  /*min-height: 370px;*/
   background-image: url('../../../../images/header-image-4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   grid-area: header__card_fruits;
   margin-left: -20%;
+}
+
+@media (max-width: 800px) {
+  .header__card_fruits {
+    margin-left: 0;
+  }
 }

@@ -12,3 +12,10 @@
   margin-right: auto;
   align-self: flex-start;
 }
+
+@media (max-width: 800px) {
+  .header__title-among-cards {
+    margin: auto;
+    padding-top: 0;
+  }
+}
